@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(144, 136, 136);
+}
+
+.site-header {
+    background-size: cover;
+    height: 100px;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav {
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(202, 179, 179);
+    padding: 1rem;
+}
+
+nav ul {
+    padding: 0;
+}
